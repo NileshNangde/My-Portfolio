@@ -5,27 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Nilesh-Nangde Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./Images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./public/images/nileshphoto.png">
     <link rel="stylesheet" href="./src/style.css">
    
     <link rel="stylesheet" media="screen and (max-width: 821px)" href="./src/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  
    
 </head>
 <body >
     <div style="background-color: #1f1f38;">
 
     <!-- Navbar Section -->
-    <nav id="navbar" class="flex s-around bg-color">
-        <div class="left-nav">
-            <h2 class="t-white">Nilesh Nangde</h2>
+    <nav id="navbar" class="navbar navbar-expand-lg justify-content-between bg-color-info  ">
+        <div >
+            <h2 class="text-white ms-5 ">Nilesh Nangde</h2>
+            
         </div>
-        <div class="right-nav">
+        <div >
             <ul class="flex">
-                <li><a href="#home" class="t-white roboto">Home</a></li>
-                <li><a href="#about" class="t-white roboto">About Me</a></li>
-                <li><a href="#skills" class="t-white roboto">Skills</a></li>
-                
+                <li><a href="#home" class="text-white">Home</a></li>
+                <li><a href="#about" class="text-white ">About Me</a></li>
+                <li><a href="#skills" class="text-white ">Skills</a></li>
                 <li><a href="#projects" class="t-white roboto">Projects</a></li>
             </ul>
         </div>
@@ -58,13 +60,13 @@
     <section id="home" class="flex s-around sw-80 m-auto" >
         <div class="home-left flex items-center">
             <div class="home-content">
-                <h6 class="poppinss">Hi, I'm</h6>
-                <h1 class="t-white">Nilesh Nangde</h1>
-                <h4 class="poppinss">Full Stack Web and Java Developer</h4>
-                <a href="./public/Nilesh_CV2.pdf" target="_blank"><button
-                        class="btn poppins">Resume</button></a>
-                <a class="btn live poppins" id="hireme" href="https://in.linkedin.com/in/nilesh-nangde"
-                    target="_blank">Let's Talk</a>
+                <p class="h6 text-white">Hi, I'm</p>
+                <p class="h1 text-white">Nilesh Nangde</p>
+                <p class="h4 text-warning">Full Stack Web and Java Developer</p>
+                <a href="./public/Nilesh_CV2.pdf" target="_blank"><button type="button" class="btn btn-outline-info btn-lg">Resume</button></a>
+                <a href="https://in.linkedin.com/in/nilesh-nangde"
+                target="_blank"><button type="button" class="btn btn-outline-light btn-lg">Linkdin</button></a>
+                
             </div>
         </div>
         <div class="home-right flex s-center items-center">
@@ -90,10 +92,10 @@
                     <h1 class="t-white m-b-1 poppins">Nilesh Nangde</h1>
                     <p class="t-white poppins">I am Nilesh Nangde <b> B.Tech</b> student looking for
                         an opportunity in Full Stack Development. <br>
-                        Who is persuing Full Stack development course from <b>Naresh IT</b>. Mindset to fullfill the life with
+                        Who is pursuing Full Stack development course from <b>Naresh IT</b>. Mindset to fullfill the life with
                         wonderful memories and knowledge.</p>
-                    <a class="btn live poppins" id="hireme"
-                        href="https://in.linkedin.com/in/nilesh-nangde">Hire Me</a>
+                        <a href="https://in.linkedin.com/in/nilesh-nangde"><button type="button" class="btn btn-outline-warning btn-lg">Hire Me</button></a>
+                    
                 </div>
             </div>
         </div>
@@ -141,10 +143,9 @@
                 <p class="t-white poppins"> A weather app using HTML, CSS and JavaScript. Fetch the weather from the
                     openweather app using fetch api.</p>
                 <div class="buttons flex s-around">
-                    <a href="#"
-                        target="_blanks" class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blanks" class="btn m-top live">Live
-                        Link</a>
+                    <a href="#" target="_blanks"><button type="button" class="btn btn-primary mt-2 me-2">GitHub</button>
+                    <a href="#" target="_blanks"><button type="button" class="btn btn-danger  mt-2 me-2">Live Link</button></a>
+                    
                 </div>
             </div>
             <div class="projects-item flex f-col s-center items-center">
@@ -156,10 +157,8 @@
                     data from the fakestoreapi.com using fetch api.
                 </p>
                 <div class="buttons flex s-around">
-                    <a href="#" target="_blanks"
-                        class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blanks" class="btn m-top live">Live
-                        Link</a>
+                    <a href="#" target="_blanks"><button type="button" class="btn btn-primary mt-2 me-2">GitHub</button>
+                   <a href="#" target="_blanks"><button type="button" class="btn btn-danger  mt-2 me-2">Live Link</button></a>
                 </div>
             </div>
             
@@ -169,14 +168,10 @@
                 </div>
 
                 <h1 class="t-white poppins">Login Form</h1>
-                <p class="t-white poppins">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati cum
-                    nemo
-                    recusandae voluptas ipsum.s</p>
+                <p class="t-white poppins"></p>
                 <div class="buttons flex s-around">
-                    <a href="#" target="_blank"
-                        class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blank" class="btn m-top live">Live
-                        Link</a>
+                    <a href="#" target="_blanks"><button type="button" class="btn btn-primary mt-2 me-2">GitHub</button>
+                    <a href="#" target="_blanks"><button type="button" class="btn btn-danger  mt-2 me-2">Live Link</button></a>
                 </div>
             </div>
 

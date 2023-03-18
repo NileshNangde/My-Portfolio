@@ -12,11 +12,12 @@
 }
 
 #navbar {
-    line-height: 4rem;
+    line-height: 2rem;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 100;
+    background-color:#1f1f38;
     border-bottom: .5px solid #ffffff52;
     border-width: 80%;
     margin-bottom: 1rem;
